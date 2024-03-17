@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend Mega", sans-serif;
+    color: #fff;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(https://images.unsplash.com/photo-1531512073830-ba890ca4eba2?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTcxMDY1ODcyMA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600);
+}
+
+h1 {
+    font-size:25px;
+    margin: 10px 0  20px 10px;
+}
+
+.largeContainer {
+    background: #000;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+    width: 95%;
+    max-width: 450px;
+}
+
+.inputCity {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 18px;
+    background-color: #7c7c7c2b;
+    width: calc(100% - 50px);
+}
+
+.buttonSearch {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+}
+
+.buttonSearch:hover {
+    background-color: #0cb3ebd6;
+}
+
+.imgSearch {
+    width: 20px;
+}
+
+.mediumContainer{
+    margin-top: 30px;
+}
+
+.city {
+    font-size: 28px;
+}
+
+.temp {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.smallContainer {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.forecast {
+    text-transform: capitalize;
+}
+
+#notification {
+    background-color: #ff00008d;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
